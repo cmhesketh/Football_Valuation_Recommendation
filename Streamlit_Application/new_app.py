@@ -438,7 +438,12 @@ def recommendation_section():
 
 def contact_section():
     st.write("You are now in the Contact section.")
-    # Add code specific to the Contact section
+    st.write('### Linkedin:')
+    st.write('https://www.linkedin.com/in/cris-hesketh/')
+    st.write('### Email:')
+    st.write('cmhesketh@hotmail.co.uk')
+    st.write('### github:')
+    st.write('https://github.com/cmhesketh/Football_Valuation_Recommendation')
 
 # Define the main function to control the app
 def main():
