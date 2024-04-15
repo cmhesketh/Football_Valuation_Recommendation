@@ -15,18 +15,18 @@ from scipy import stats
 st.title("GOAThunter" )
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-player_df_reduced = pd.read_csv('../Notebook_Data_Exports/player_df_EDA.csv')
-graph_for_streamlit = pd.read_csv('graph_for_streamlit.csv')
-agg_clust_df = pd.read_csv('streamlit_clustering.csv')
-market_value_position = pd.read_csv('../Notebook_Data_Exports/player_value_final_pred_all_seasons.csv')
-market_value_predictions = pd.read_csv('../Notebook_Data_Exports/market_value_predictions.csv')
-xgb_overfitting = pd.read_csv('xgb_overfitting.csv')
+player_df_reduced = pd.read_csv('./Notebook_Data_Exports/player_df_EDA.csv')
+graph_for_streamlit = pd.read_csv('Streamlit_Application/graph_for_streamlit.csv')
+agg_clust_df = pd.read_csv('Streamlit_Application/streamlit_clustering.csv')
+market_value_position = pd.read_csv('./Notebook_Data_Exports/player_value_final_pred_all_seasons.csv')
+market_value_predictions = pd.read_csv('./Notebook_Data_Exports/market_value_predictions.csv')
+xgb_overfitting = pd.read_csv('Streamlit_Application/xgb_overfitting.csv')
 market_value_predictions['under/over'] = np.where(market_value_predictions['Y_Pred']>market_value_predictions['Y_Actual'],
                                                   'Undervalued', 'Overvalued')
 
 def home_page():    
     st.write('##### We shortlist undervalued football players who are statistically similar to your player of interest.')
-    st.image('../Images/Mbappe_Haaland_.png', width=800)
+    st.image('./Images/Mbappe_Haaland_.png', width=800)
     st.write('##### Project machine learning approach:')
     st.write('''
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Cluster Football players into groups and positions based on their individual statistics\n
@@ -35,7 +35,7 @@ def home_page():
     The following top-level process was followed, to build up the final product:
 ''', unsafe_allow_html=True)
 
-    st.image('../Images/Process_Capstone.png', width=800)
+    st.image('./Images/Process_Capstone.png', width=800)
     
 
 def analysis_insights():
@@ -185,7 +185,7 @@ def modelling_section():
     st.write('##### 3. Which features have the largest importance to the model?')
     st.write('###### Feature importance in XGBoost models is the contribution to the reduction of RMSE (Gain)')
 
-    st.image('../Images/xgb_feature_importance.png', width=900)
+    st.image('./Images/xgb_feature_importance.png', width=900)
 
     st.write('##### 4. Which players are the most under or overvalued based on the model?')
     st.write('###### Identification of which data points predicted the least accurately by the final model')
