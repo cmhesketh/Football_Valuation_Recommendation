@@ -1,0 +1,6 @@
+,Model,Training Score,Validation Score,Test Score,Parameters
+0,XGB:1,2096095.32,7869652.16,8043486.87,"{'xgb__learning_rate': 0.1, 'xgb__max_depth': 5, 'xgb__n_estimators': 500}"
+1,XGB:2,3587863.63,8050500.51,8230933.33,"{'xgb__learning_rate': 0.2, 'xgb__max_depth': 4, 'xgb__n_estimators': 300, 'xgb__reg_lambda': 10}"
+2,XGB:3,3352755.62,8016059.82,8248392.89,"{'xgb__alpha': 1, 'xgb__learning_rate': 0.1, 'xgb__max_depth': 5, 'xgb__n_estimators': 200}"
+3,XGB:4,5114980.15,8186163.44,8818464.64,"{'xgb__alpha': 0.1, 'xgb__gamma': 0, 'xgb__learning_rate': 0.1, 'xgb__max_depth': 5, 'xgb__min_child_weight': 10, 'xgb__n_estimators': 100}"
+4,XGB:5,5427658.68,8308700.32,8987978.13,"{'xgb__alpha': 1, 'xgb__gamma': 0.1, 'xgb__learning_rate': 0.1, 'xgb__max_depth': 5, 'xgb__min_child_weight': 10, 'xgb__n_estimators': 80}"

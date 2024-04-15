@@ -1,0 +1,21 @@
+Features,Correlation Coefficient,P-Value,Statistically Significant,Positive / Negative
+conceded_per_90_overall,-0.2828390433132022,2.721878168647036e-110,Statistically Significant,Negative
+rank_in_league_top_attackers,-0.23400266780564197,4.1290985600067684e-75,Statistically Significant,Negative
+rank_in_club_top_scorer,-0.22387548820443864,9.572755707851536e-69,Statistically Significant,Negative
+rank_in_league_top_midfielders,-0.21510509433269084,1.7531800506660807e-63,Statistically Significant,Negative
+rank_in_league_top_defenders,-0.1981141367509711,6.178506590066705e-54,Statistically Significant,Negative
+clearances_per_90_overall,-0.13486927078684788,1.1869946496233843e-25,Statistically Significant,Negative
+cards_per_90_overall,-0.09816425512844697,2.869805870131274e-14,Statistically Significant,Negative
+interceptions_per_90_overall,-0.09110542540182089,1.72736501762249e-12,Statistically Significant,Negative
+blocks_per_90_overall,-0.07859581317929393,1.1799818327984047e-09,Statistically Significant,Negative
+shots_faced_per_90_overall,-0.07034416080240159,5.2502080098191105e-08,Statistically Significant,Negative
+npxg_per_90_overall,0.2686031980668637,2.990154337025967e-99,Statistically Significant,Positive
+minutes_played_overall,0.270752693875707,7.093987085191479e-101,Statistically Significant,Positive
+shots_off_target_per_game_overall,0.27105490510012886,4.1807243640244996e-101,Statistically Significant,Positive
+xg_per_90_overall,0.27712813067776654,8.781263078879169e-106,Statistically Significant,Positive
+xa_per_90_overall,0.2883716060489533,9.209353118563276e-115,Statistically Significant,Positive
+goals_per_90_overall,0.30292438125924914,5.180067312597273e-127,Statistically Significant,Positive
+annual_salary_eur,0.3318369650478352,1.5929866651787841e-153,Statistically Significant,Positive
+goals_involved_per_90_overall,0.34137725529636265,6.258039442767397e-163,Statistically Significant,Positive
+two_goals_in_a_game_total_overall,0.3446136564247395,3.383603146680694e-166,Statistically Significant,Positive
+clean_sheets_overall,0.39521783200044996,1.4867808731618785e-222,Statistically Significant,Positive
